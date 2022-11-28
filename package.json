@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -18,5 +18,10 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.3"
+  },
+  "devDependencies": {
+    "@mdx-js/loader": "^2.1.5",
+    "@mdx-js/react": "^2.1.5",
+    "@next/mdx": "^13.0.5"
   }
 }
